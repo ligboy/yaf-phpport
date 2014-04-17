@@ -1,0 +1,38 @@
+{
+    "name": "ligboy/yaf-phpport",
+    "type": "library",
+    "description": "YAF php extension ported to php to make project more portable.The original author is mzsolti.",
+    "keywords": ["framework", "yaf"],
+    "homepage": "http://github.com/ligboy/yaf-phpport",
+    "license": "Same as yaf (http://pecl.php.net/package/yaf)",
+    "authors": [
+        {
+            "name": "mzsolti",
+            "homepage": "https://github.com/mzsolti"
+        },
+        {
+            "name": "Ligboy",
+            "homepage": "http://github.com/ligboy"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "Yaf\\": "src" }
+    },
+    "target-dir": "Yaf",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.5-dev"
+        }
+    }
+}
