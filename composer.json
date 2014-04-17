@@ -4,7 +4,7 @@
     "description": "YAF php extension ported to php to make project more portable.The original author is mzsolti.",
     "keywords": ["framework", "yaf"],
     "homepage": "http://github.com/ligboy/yaf-phpport",
-    "license": "Same as yaf (http://pecl.php.net/package/yaf)",
+    "license": "PHP-3.01",
     "authors": [
         {
             "name": "mzsolti",
@@ -28,11 +28,9 @@
     "autoload": {
         "psr-4": { "Yaf\\": "src" }
     },
-    "target-dir": "Yaf",
-    "minimum-stability": "dev",
+    "minimum-stability": "",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.5-dev"
         }
     }
 }
